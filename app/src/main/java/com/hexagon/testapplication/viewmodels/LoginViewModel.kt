@@ -32,7 +32,7 @@ class LoginViewModel(private val repository : Repository) : ViewModel() {
              loginRes.password = pwdStr.getTrimmed()
              loginRes.platform_os = 1
              loginRes.user_type = listOf("7","8")
-             loginRes.fcm_token = "sdfvdfvdfsv"
+             loginRes.fcm_token = "123456"
              repository.getlogin(loginRes)
              withContext(Dispatchers.Main){
                  setProgressBar(false)
