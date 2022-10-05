@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
 import com.dressvibe.businesslogic.interactors.ObservableString
 import com.dressvibe.businesslogic.interactors.SingleLiveEvent
+import com.hexagon.testapplication.MyApplication
 import com.hexagon.testapplication.oldpackage.jsonRequest.LoginReq
 
 
