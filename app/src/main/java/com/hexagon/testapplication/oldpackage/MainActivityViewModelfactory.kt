@@ -2,6 +2,7 @@ package com.hexagon.testapplication.oldpackage
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.hexagon.testapplication.MyApplication
 
 class MainActivityViewModelFactory (
     private val myApplication: MyApplication

@@ -11,8 +11,11 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        //When you don't have any run time object like context
         //applicationComponent =  DaggerApplicationComponent.builder().build()
 
+
+        //if you  have any run time object like context
         applicationComponent =  DaggerApplicationComponent.factory().create(this)
     }
 }

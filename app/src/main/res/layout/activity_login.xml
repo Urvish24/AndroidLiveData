@@ -30,6 +30,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="149dp"
+            android:layout_height="48dp"
+            android:selectedItemPosition="@={myViewModel.spinnerSelectedPosition}"
+            app:layout_constraintBottom_toTopOf="@+id/edt_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
         <EditText
             android:id="@+id/edt_email"
             android:layout_width="match_parent"

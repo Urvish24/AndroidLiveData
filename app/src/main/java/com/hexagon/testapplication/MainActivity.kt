@@ -20,7 +20,7 @@ class MainActivity : ActivityBase() {
 
         mainActivityViewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
         binding.myViewModel = mainActivityViewModel
-        mainActivityViewModelFactory = MainActivityViewModelFactory(myApplication = mApplication)
+       // mainActivityViewModelFactory = MainActivityViewModelFactory(myApplication = mApplication)
         mainActivityViewModel.getEventSignIn().observe(this, Observer {
             if(it) {
                 val responseLiveData =  mainActivityViewModel.dataResponse()

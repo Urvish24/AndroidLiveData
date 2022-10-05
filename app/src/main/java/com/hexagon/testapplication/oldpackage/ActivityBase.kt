@@ -30,7 +30,7 @@ open class ActivityBase : AppCompatActivity() {
     @Inject
     lateinit var mBroadcastManager: LocalBroadcastManager
 
-    lateinit var mApplication: MyApplication
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
